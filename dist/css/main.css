@@ -170,6 +170,7 @@ header .nav__customer:hover {
   transition: 0.4s;
 }
 
+/* ---------------------------------------- */
 /* main */
 main {
   position: relative;
@@ -295,5 +296,218 @@ main .place__item img {
 main .place span {
   font-size: 16px;
   font-weight: bold;
+}
+
+main .natural {
+  position: relative;
+  margin-top: 48px;
+  padding: 0 80px;
+  height: 482px;
+}
+
+main .natural__content {
+  height: 482px;
+  width: 88%;
+  background-image: url(/dist/img/background-natural.jpg);
+  background-size: cover;
+  position: absolute;
+  border-radius: 20px;
+}
+
+main .natural__content__item {
+  position: absolute;
+  top: 130px;
+  left: 90px;
+}
+
+main .natural__content__item h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+main .natural__content__item button {
+  padding: 5px 15px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+main .experience {
+  margin-top: 48px;
+}
+
+main .experience h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+main .experience__sub-title {
+  font-size: 24px;
+  padding: 0;
+}
+
+main .experience__content {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+}
+
+main .experience__item {
+  margin-top: 12px;
+  padding: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 16px;
+}
+
+main .experience__item img {
+  height: 424px;
+  width: 424px;
+  border-radius: 10px;
+}
+
+main .experience__item p {
+  margin: 12px 0 0 0;
+  padding: 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+main .host {
+  position: relative;
+  margin-top: 48px;
+  padding: 0 80px;
+  height: 482px;
+}
+
+main .host__content {
+  height: 482px;
+  width: 88%;
+  background-image: url(/dist/img/host-cover.jpg);
+  background-size: cover;
+  position: absolute;
+  border-radius: 20px;
+}
+
+main .host__content__item {
+  width: 500px;
+  position: absolute;
+  top: 150px;
+  left: 90px;
+}
+
+main .host__content__item p {
+  color: white;
+  font-size: 1.5rem;
+}
+
+main .host__content__item h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+}
+
+main .host__content__item button {
+  padding: 5px 15px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+}
+
+/* ----------------------------------------- */
+/* footer */
+footer {
+  width: 100%;
+  height: 542px;
+  background-color: #f7f7f7;
+  margin-top: 48px;
+  padding-top: 42px;
+  border-top: 1px solid #e2dfdf;
+}
+
+footer ul,
+footer li,
+footer p {
+  margin: 0;
+  padding: 0;
+}
+
+footer .footer__direction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1 solid #e2dfdf;
+}
+
+footer .footer__about, footer .footer__community, footer .footer__welcome, footer .footer__support {
+  list-style: none;
+}
+
+footer .footer__about p, footer .footer__community p, footer .footer__welcome p, footer .footer__support p {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+footer .footer__about li, footer .footer__community li, footer .footer__welcome li, footer .footer__support li {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+footer .footer__about a, footer .footer__community a, footer .footer__welcome a, footer .footer__support a {
+  text-decoration: none;
+  color: black;
+}
+
+footer .footer__connect {
+  margin-top: 32px;
+  padding-top: 30px;
+  height: 69px;
+  border-top: 1px solid #e2dfdf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer__connect .footer__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+footer .footer__connect .footer__info li {
+  margin-right: 16px;
+}
+
+footer .footer__connect .footer__info a {
+  text-decoration: none;
+  color: black;
+}
+
+footer .footer__connect .footer__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+footer .footer__connect .footer__social li {
+  margin-right: 16px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
